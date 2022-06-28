@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "nombre": "HTML5",
+    "descripcion": "Some quick example text to build on the card title",
+    "imagen": "/img/html5.png",
+    "link": "Go somewhere",
+    "porcentaje": "80%",
+    "categoria": "frond"
+  },
+
+  {
+   "id": 2,
+    "nombre": "CCS3",
+    "descripcion": "Some quick example text to build on the card title",
+    "imagen": "./img/css3.png",
+    "link": "Go somewhere",
+    "porcentaje": "70%",
+    "categoria": "frond"
+  },
+
+    {
+   "id": 3,
+    "nombre": "JavaScript",
+    "descripcion": "Some quick example text to build on the card title",
+    "imagen": "./img/js.png",
+    "link": "Go somewhere",
+    "porcentaje": "35%",
+    "categoria": "frond"
+  },
+
+    {
+   "id": 4,
+    "nombre": "Bootstrap",
+    "descripcion": "Some quick example text to build on the card title",
+    "imagen": "./img/BootsStrap.png",
+    "link": "Go somewhere",
+    "porcentaje": "70%",
+    "categoria": "frond"
+  },
+
+    {
+   "id": 5,
+    "nombre": "C Sharp",
+    "descripcion": "Csharp quick example text to build on the card title",
+    "imagen": "./img/csharp.png",
+    "link": "Go somewhere",
+    "porcentaje": "40%",
+    "categoria": "frond backend"
+  },
+
+    {
+   "id": 6,
+    "nombre": "Aps.Net MVC",
+    "descripcion": "Some quick example text to build on the card title",
+    "imagen": "/img/AspNet.jpg",
+    "link": "Go somewhere",
+    "porcentaje": "50%",
+    "categoria": "frond backend"
+  },
+
+    {
+   "id": 7,
+    "nombre": "SQL Server",
+    "descripcion": "Some quick example text to build on the card title",
+    "imagen": "./img/sqlServer.png",
+    "link": "Go somewhere",
+    "porcentaje": "60%",
+    "categoria": "backend"
+  },
+      {
+   "id": 8,
+    "nombre": "Firebase",
+    "descripcion": "Some quick example text to build on the card title",
+    "imagen": "./img/firebase.png",
+    "link": "Go somewhere",
+    "porcentaje": "40%",
+    "categoria": "backend"
+  }
+
+ 
+]
+

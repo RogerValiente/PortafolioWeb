@@ -1,0 +1,330 @@
+* {
+	margin: 0;
+	padding: 0;
+    list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:root {
+    --primary: #ED3833;
+    --secundary: #524949;
+    --tertiary: #153d41;
+    --robot: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: var(--secundary);
+    height: 100vh;
+}
+
+/* Menu */
+.navbar{
+    z-index: 1;
+}
+.navbar-collapse {
+    flex-grow: unset;
+}
+
+.slider-img img{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px 25px;
+    filter: grayscale(0);
+    transition: filter 1s;
+}
+
+/* Sobre Mi */
+.slider-img img:hover{
+      filter: grayscale(1);
+}
+
+.name {
+    font-size: 35px;
+    color: var(--primary);
+    text-align: center;
+}
+
+.job {
+    font-size: 60px;
+    font-family: var(--robot);
+    text-align: center;
+    color: #fff;
+}
+
+.location{
+    font-size: 50px;
+    font-family: var(--robot);
+    text-align: center;
+    color: var(--primary);
+}
+
+.description{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.733);
+    text-align: center;
+}
+
+.sm-title{
+    color: var(--primary);
+    font-size: 30px;
+    font-family: var(--robot);
+}
+
+.sm-title text {
+    text-align: justify;
+}
+
+#sobreMi, #habilidades, #contacto {
+    background-color: var(--tertiary);
+}
+
+.lg-titles{
+    color: #fff;
+    font-size: 50px;
+    font-family: var(--robot);
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.671);
+    text-align: justify;
+}
+
+.about-img{
+    width: 70%;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.a-name, .a-job{
+    color: #fff;
+    font-size: 20px;
+}
+
+.a-job span{
+    color: var(--primary);
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+.p-i{
+    font-family: var(--robot);
+    color: #fff;
+}
+
+.icon-text{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.c-text{
+    color: #fff;
+     font-size: 30px;
+}
+.c-text span{
+    color: var(--primary);
+}
+
+.form-label{
+    color: #fff;
+}
+
+
+/* Redes Sociales */
+.social-icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 7px;
+    margin-right: 11px;
+    cursor: pointer
+}
+
+.social-facebook {
+    background-color: #3b5999
+}
+
+.social-linkedin {
+    background-color: #0077B5
+}
+
+.social-github {
+    background-color: #090201;
+    border: 1px solid #fff;
+}
+
+.social-wasap {
+    background-color: #dd4b39
+}
+
+.social-icon svg {
+    transition: 0.5s all    
+}
+
+.social-icon:hover svg {
+    transform: scale(1.1);
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+
+/* Categorias */
+header .categorias {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+header .categorias a {
+	color: #9B9B9B;
+	margin: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+header .categorias a.activo {
+	color: #000;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0
+}
+
+.contenedor ul {
+    position: relative;
+    width: 100%;
+    margin: 60px 0;
+}
+
+.contenedor ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px 15px;
+    margin-right: 15px;
+    box-shadow: 10px 10px 10px 0px rgba(232, 31, 31, 0.75);
+}
+
+.contenedor ul li:hover, .activo {
+background-color: var(--primary);
+color: var(--secundary);
+cursor: pointer;
+}
+
+.tarjetas .card{
+    margin-bottom: 20px;
+}
+
+.tarjetas img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+#proyectos{
+    text-align: justify;
+}
+
+#proyectos img, #habilidades img {
+  transition: all 350ms;
+  border-radius: 5px;
+  box-shadow: 1px 0px 13px black;
+  margin-bottom: 5px;
+}
+
+#proyectos img:hover, #habilidades img:hover {
+  transform: scale(1.1);
+  transition: all 350ms;
+}
+
+.boton-volver {
+  position: fixed;
+  right: 5px;
+  top: 80%;
+  z-index: 100;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #040012;
+    display: flex;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 43%;
+}
+
+.footer a span {
+    color: var(--primary);
+}
+
+@media(max-width:767px){
+    .about-img {
+        width: 100% !important;
+    }
+
+    .job{
+        font-size: 35px;
+    }
+
+    .location{
+    font-size: 25px;
+    }
+
+    .description{
+        font-size: 20px;
+    }
+    .left-sidebar {
+    z-index: -1;
+    }
+
+    .sm-title svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .contenedor ul li {
+    width: 120px;
+    margin-bottom: 9px;
+    box-shadow: 5px 5px 5px 0px rgb(232 31 31 / 75%);
+}
+
+ul {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+}
+
+
