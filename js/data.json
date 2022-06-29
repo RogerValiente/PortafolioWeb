@@ -55,7 +55,7 @@
     "descripcion": "Some quick example text to build on the card title",
     "imagen": "/img/AspNet.jpg",
     "link": "Go somewhere",
-    "porcentaje": "50%",
+    "porcentaje": "40%",
     "categoria": "frond backend"
   },
 
