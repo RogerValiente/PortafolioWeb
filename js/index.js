@@ -69,9 +69,6 @@ $(document).ready(function () {
       $('.filtro').filter('.' + valor).show('1000');
     }
   })
-  // $(".categoria ul li").click(function () {
-  //   $(this).addClass(".activo").siblings().removeClass(".activo");
-  // })
 
   //Volver al inicio
   let inicio = $(".volver-arriba");
