@@ -35,6 +35,29 @@ function crearCard(data) {
 
 //Filtra do por categorias
 $(document).ready(function () {
+// Menu principal
+  $('.navbar-nav li a').click(function() {
+
+        $('.navbar-nav li a').removeClass('active');
+
+        var $this = $(this);
+        if (!$this.hasClass('active')) {
+            $this.addClass('active');
+        }
+    });
+
+    // Menu habilidades
+  $('.menuActivo li').click(function() {
+
+        $('.contenedor ul li').removeClass('bg-danger');
+
+        var $this = $(this);
+        if (!$this.hasClass('bg-danger')) {
+            $this.addClass('bg-danger');
+        }
+    });
+
+// filtro habilidades
   $('.enlaces').click(function (e) {
     e.preventDefault();
     var valor = $(this).attr('data-categoria');
@@ -46,9 +69,9 @@ $(document).ready(function () {
       $('.filtro').filter('.' + valor).show('1000');
     }
   })
-  $(".categoria ul li").click(function () {
-    $(this).addClass("active").siblings().removeClass("active");
-  })
+  // $(".categoria ul li").click(function () {
+  //   $(this).addClass(".activo").siblings().removeClass(".activo");
+  // })
 
   //Volver al inicio
   let inicio = $(".volver-arriba");
