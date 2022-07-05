@@ -25,7 +25,7 @@
     "descripcion": "Some quick example text to build on the card title",
     "imagen": "./img/js.png",
     "link": "Go somewhere",
-    "porcentaje": "35%",
+    "porcentaje": "40%",
     "categoria": "frond"
   },
 
@@ -45,7 +45,7 @@
     "descripcion": "Csharp quick example text to build on the card title",
     "imagen": "./img/csharp.png",
     "link": "Go somewhere",
-    "porcentaje": "40%",
+    "porcentaje": "50%",
     "categoria": "frond backend"
   },
 
@@ -55,7 +55,7 @@
     "descripcion": "Some quick example text to build on the card title",
     "imagen": "/img/AspNet.jpg",
     "link": "Go somewhere",
-    "porcentaje": "40%",
+    "porcentaje": "50%",
     "categoria": "frond backend"
   },
 
@@ -74,7 +74,7 @@
     "descripcion": "Some quick example text to build on the card title",
     "imagen": "./img/firebase.png",
     "link": "Go somewhere",
-    "porcentaje": "40%",
+    "porcentaje": "50%",
     "categoria": "backend"
   }
 

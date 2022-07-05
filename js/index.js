@@ -49,11 +49,11 @@ $(document).ready(function () {
     // Menu habilidades
   $('.menuActivo li').click(function() {
 
-        $('.contenedor ul li').removeClass('bg-danger');
+        $('.contenedor ul li').removeClass('bg-success');
 
         var $this = $(this);
-        if (!$this.hasClass('bg-danger')) {
-            $this.addClass('bg-danger');
+        if (!$this.hasClass('bg-success')) {
+            $this.addClass('bg-success');
         }
     });
 

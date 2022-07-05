@@ -11,9 +11,9 @@
 }
 
 :root {
-    --primary: #ED3833;
-    --secundary: #524949;
-    --tertiary: #153d41;
+    --primary: #A1AFBA;
+    --secundary: #2B4C5D; 
+    --tertiary: #273F4B;
     --robot: 'Roboto Slab', serif;
 }
 
@@ -44,17 +44,17 @@ body {
       filter: grayscale(1);
 }
 
-.name {
+/* .name {
     font-size: 35px;
     color: var(--primary);
     text-align: center;
-}
+} */
 
 .job {
     font-size: 60px;
     font-family: var(--robot);
     text-align: center;
-    color: #fff;
+    color: rgb(236, 223, 223);
 }
 
 .location{
@@ -91,7 +91,7 @@ body {
 }
 
 .text{
-    color: rgba(255, 255, 255, 0.671);
+    color: rgb(255, 255, 255);
     text-align: justify;
 }
 
@@ -116,10 +116,10 @@ body {
     background-color: rgba(255, 255, 255, 0.425);
 }
 
-.p-i{
+/* .p-i{
     font-family: var(--robot);
     color: #fff;
-}
+} */
 
 .icon-text{
     color: #fff;
@@ -137,7 +137,6 @@ body {
 .form-label{
     color: #fff;
 }
-
 
 /* Redes Sociales */
 .social-icon {
@@ -167,7 +166,7 @@ body {
 }
 
 .social-wasap {
-    background-color: #dd4b39
+    background-color: #435A64;
 }
 
 .social-icon svg {
@@ -227,7 +226,7 @@ ul {
     border: 1px solid #fff;
     border-radius: 15px 15px;
     margin-right: 15px;
-    box-shadow: 10px 10px 10px 0px rgba(232, 31, 31, 0.75);
+    box-shadow: 10px 10px 10px 0px rgba(172, 146, 146, 0.35);
 }
 
 .contenedor ul li:hover, .activo {
